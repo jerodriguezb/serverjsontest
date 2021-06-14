@@ -1,0 +1,90 @@
+.navBar h4 {
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #1d3557 !important;
+  color: #f1faee !important;
+  font-family: "Quicksand";
+}
+
+.navBar {
+  background-color: #1d3557 !important;
+  color: rgb(163, 159, 159) !important;
+  font-size: 3rem;
+  font-family: "Times New Roman", Times, serif;
+  padding: 1rem;
+}
+
+.nav-link {
+  font-family: "Quicksand";
+  background-color: #1d3557 !important;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  -webkit-margin-start: 5rem;
+  color: #f1faee !important;
+}
+
+.nav-link1 {
+  font-family: "Quicksand";
+  color: #e63946 !important;
+  font-size: 2rem;
+  -webkit-margin-start: 5rem;
+  margin-top: 0.5rem;
+}
+
+#navBar nav {
+  background-color: #1d3557 !important;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  color: rgb(163, 159, 159) !important;
+}
+
+.navBar img {
+  height: 10rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  color: #f1faee !important;
+}
+
+.navBar span {
+  background-color: #1d3557 !important;
+  font-size: 2.2rem;
+  color: #f1faee !important;
+  font-family: "Times New Roman", Times, serif;
+}
+
+@media (max-width: 768px) {
+  .navBar img {
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-end;
+    justify-content: right;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navBar img {
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-end;
+    justify-content: right;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  .navBar nav {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+}
